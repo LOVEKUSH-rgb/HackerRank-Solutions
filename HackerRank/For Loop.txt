@@ -1,0 +1,10 @@
+{
+        if(n>=1 && n<=9)
+        {
+            cout<<number[n-1]<<endl;
+        }
+        else if(n%2==0)
+        {
+            cout<<"even"<<endl;
+        }
+        else
