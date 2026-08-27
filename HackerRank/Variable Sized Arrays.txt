@@ -1,4 +1,10 @@
-cout << a[x][y]<<endl;
-    }
-    return 0;
-}
+output to STDOUT */   
+    int n, q, k, i, j;
+    cin >> n;
+    cin >> q;
+    vector<vector<int>> a(n);
+    for (i = 0; i < n; i++)
+    {
+        cin >> k;
+        a[i].resize(k);
+        for (j = 0; j < k; j++)
