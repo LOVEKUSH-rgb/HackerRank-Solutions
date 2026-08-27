@@ -1,0 +1,4 @@
+cout << a[x][y]<<endl;
+    }
+    return 0;
+}
