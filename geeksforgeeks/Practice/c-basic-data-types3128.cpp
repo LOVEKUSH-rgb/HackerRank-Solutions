@@ -3,7 +3,7 @@
 // Language: unknown
 // Verdict: Accepted
 // URL: https://www.geeksforgeeks.org/problems/c-basic-data-types3128/1
-// Solved on: 2026-11-08T14:58:35.543Z
+// Solved on: 2026-11-08T15:13:49.353Z
 
 #include <iostream>
 #include <string>
