@@ -1,0 +1,22 @@
+// Problem: Transpose Matrix
+// Platform: leetcode
+// Rating/Difficulty: Easy
+// Language: cpp
+// Verdict: Accepted
+// URL: https://leetcode.com/problems/transpose-matrix/
+// Solved on: 2026-11-28T17:02:20.655Z
+
+class Solution {
+public:
+    vector<vector<int>> transpose(vector<vector<int>>& matrix) {
+        vector<vector<int>> temp(matrix[0].size(),vector<int>(matrix.size()));
+        for(int i=0;i<matrix.size();i++)
+        {
+            for(int j=0;j<matrix[0].size();j++)
+            {
+                temp[j][i]=matrix[i][j];
+            }
+        }
+        return temp;
+    }
+};
